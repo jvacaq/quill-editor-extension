@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Quill Composer",
+  "version": "0.1",
+  "description": "Editor Quill en popup para redactar mensajes",
+  "applications": {
+    "gecko": {
+      "id": "quill-compose@ejemplo.com",
+      "strict_min_version": "78.0"
+    }
+  },
+  "icons": { "32": "icons/quill-32.png" },
+  "permissions": ["compose", "messagesModify"],
+  "compose_action": {
+    "default_icon": { "32": "icons/quill-32.png" },
+    "default_label": "Quill Edit",
+    "default_popup": "popup.html"
+  }
+}

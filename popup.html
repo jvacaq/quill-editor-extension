@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Quill Editor</title>
+  <link rel="stylesheet" href="content-scripts/quill/quill.snow.css">
+  <style>
+    body { margin: 0; padding: 10px; font-family: sans-serif; }
+    #quill-editor { height: 300px; }
+    #buttons { margin-top: 10px; text-align: right; }
+  </style>
+</head>
+<body>
+  <div id="quill-editor"></div>
+  <div id="buttons">
+    <button id="save">Guardar</button>
+  </div>
+  <script src="content-scripts/quill/quill.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
